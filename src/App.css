@@ -30,3 +30,9 @@
   justify-content: center;
   gap: 20px;
 }
+
+hr {
+  height: 2px;
+  width: 700px;
+  background-color: black;
+}

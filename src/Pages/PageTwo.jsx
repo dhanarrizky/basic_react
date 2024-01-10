@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ComponentSix from "../Components/PageTwo/ComponentSix/ComponentSix";
 import ComponentSeven from "../Components/PageTwo/ComponentSeven/ComponentSeven";
+import ComponentEight from "../Components/PageTwo/ComponentEight/ComponentEight";
 
 const PageTwo = () => {
     return (
@@ -12,6 +13,7 @@ const PageTwo = () => {
                 </ComponentSix>
                 <ComponentSix name='rizky'/>
                 <ComponentSeven name='krisnadhy'/>
+                <ComponentEight/>
                 <ul>
                     <li>
                         <Link to='/'>Back To Home</Link>

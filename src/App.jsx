@@ -4,6 +4,7 @@ import HomePage from './Pages/HomePage'
 import PageOne from './Pages/PageOne'
 import Page404 from './Pages/404'
 import PageTwo from './Pages/PageTwo'
+import PageThree from './Pages/PageThree'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<HomePage/>}/>
           <Route path='/1' element={<PageOne/>}/>
           <Route path='/2' element={<PageTwo/>}/>
+          <Route path='/3' element={<PageThree/>}/>
           <Route path='*' element={<Page404/>}/>
       </Routes>
     </Router>
