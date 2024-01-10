@@ -7,8 +7,26 @@
   width: 100%;
   height: 100vh;
   background-color: aqua;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 .center {
-  margin-left: 40%;
+  display: flex;
+  flex-direction:column ;
+  gap: 20px;
+  align-items: center;
+}
+
+.com-three button{
+  padding: 10px;
+  font-size: 20px;
+}
+
+.com-six {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
 }
